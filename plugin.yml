@@ -1,0 +1,6 @@
+name: PlayerBar
+author: MintoD
+version: 1.0.0
+description: Display TPS and Ping on the bar below the hot bar
+api: [3.0.0]
+main: MintoD\PlayerBar\Main
