@@ -4,6 +4,7 @@ namespace MintoD\PlayerBar;
 
 use pocketmine\Player;
 use pocketmine\scheduler\Task;
+use pocketmine\plugin\PluginBase;
 use MintoD\PlayerBar\Main;
 
 class Bar extends Task {
