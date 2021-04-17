@@ -8,8 +8,8 @@ use pocketmine\plugin\PluginBase;
 use MintoD\PlayerBar\Main;
 
 class Bar extends Task {
-    public int $currentTick = 10;
-    private Main $plugin;
+    public $currentTick = 10;
+    private $plugin;
     private $player;
 
     public function __construct(Main $plugin, $player)
